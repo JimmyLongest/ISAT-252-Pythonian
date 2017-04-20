@@ -1,0 +1,125 @@
+#define the function
+def UREC():
+        pass
+
+        #state what the program does
+        print("\nThis program tells JMU students when the gym is open and if they can go.\n")
+
+        print("This is a numerical program, please input the numbers corresponding to days, times, yes, and no.\n")
+        
+        #State the parameters for the user 
+        print("Weekend hours are: 10am - 11pm")
+        print("Weekday hours are: 6am - 11pm\n")
+
+        print("Yes = 1")
+        print("No = 2")
+
+        start = int(input("\nWould you like to use this program? Yes or No :"))
+        if start == 1 :
+                print("\nPlease look at the options below.\n")
+        elif start == 2 : 
+                print("\nThank you anyways.")
+                quit("\nUREC")
+                               
+                        
+        print("Sunday = 1")
+        print("Monday = 2")
+        print("Tuesday = 3") 
+        print("Wednesday = 4") 
+        print("Thursday = 5")
+        print("Friday = 6") 
+        print("Saturday = 7\n")    
+
+        #define what day of the week you want to go to the gym
+        int(input("Please enter the day of the week you wish to visit the gym: "))
+        if input > 0:
+                print("\nYou may go to the gym.")
+                if input > 0 and input < 2 and input == 7:
+                        print("\nYou may go to the gym.")
+
+                print("\nPlease look at the options below.\n")
+
+                print("12am (midnight) = 8")
+                print("1am = 9")       
+                print("2am = 10")
+                print("3am = 11")
+                print("4am = 12")
+                print("5am = 13")
+                print("6am = 14")
+                print("7am = 15")
+                print("8am = 16")
+                print("9am = 17")
+                print("10am = 18")
+                print("11am = 19")
+                print("12pm (noon) = 20")
+                print("1pm = 21")
+                print("2pm = 22")
+                print("3pm = 23")
+                print("4pm = 24")
+                print("5pm = 25")
+                print("6pm = 26")
+                print("7pm = 27")
+                print("8pm = 28")
+                print("9pm = 29")
+                print("10pm = 30")
+                print("11pm = 31\n")
+
+                #define what time you want to go the gym
+                gymtime = int(input("Please enter the time at which you would like to got to the gym. :"))
+                if gymtime > 17 and gymtime <= 31:
+                        print("\nYou may go to the gym. Thank you for using this program.\n")
+                        if gymtime > 17 and gymtime <= 31:
+                                quit("UREC")
+                elif gymtime > 31:
+                        print("You may not go to the gym at this time, please choose another time.\n")
+                elif gymtime < 17:
+                        print("You may not go to the gym at this time, please choose another time.\n")
+
+        print("12am (midnight) = 8")
+        print("1am = 9")       
+        print("2am = 10")
+        print("3am = 11")
+        print("4am = 12")
+        print("5am = 13")
+        print("6am = 14")
+        print("7am = 15")
+        print("8am = 16")
+        print("9am = 17")
+        print("10am = 18")
+        print("11am = 19")
+        print("12pm (noon) = 20")
+        print("1pm = 21")
+        print("2pm = 22")
+        print("3pm = 23")
+        print("4pm = 24")
+        print("5pm = 25")
+        print("6pm = 26")
+        print("7pm = 27")
+        print("8pm = 28")
+        print("9pm = 29")
+        print("10pm = 30")
+        print("11pm = 31\n")
+
+        #define what time you want to go the gym
+        gymtime = int(input("Please enter the time at which you would like to got to the gym:"))
+        if gymtime > 14 and gymtime <= 31:
+                print("\nYou may go to the gym. Thank you for using this program.\n") 
+                quit("\nUREC")
+        elif gymtime > 31:
+                print("You may not go to the gym.\n")
+        elif gymtime < 14:
+                print("You may not go to the gym.\n")
+                
+UREC()
+
+
+ 
+
+
+
+
+
+
+
+
+
