@@ -1,2 +1,2 @@
 # ISAT-252-Pythonian
-This repository will contain a program to obtain the Pythonian badge for ISAT 252
+This repository contains a python program that has a function of telling JMU students when the gym is open, as well as, if they are able to go to the gym based dates and times that they input. This will be useful for people attending the university for events such as family weekends. And, this will be especially helpful for students living on and off campus at the university. They will be able to access this program and discover if the gym is open before wasting time by leaving their house and discovering that it is not available for their use.
